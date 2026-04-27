@@ -1,7 +1,5 @@
 ---
 name: "Delivery Note JSON Extractor"
-version: "0.0.1"
-author: "Moorigin"
 description: "从商品发货单PDF中提取关键商品信息，并输出严格的JSON格式用于电子表格导入。当Codex需要解析送货单PDF文本、标准化送货日期、去重订单号、提取YY与NQL/L/CSP之间的平台SKC数字、清理颜色属性集、按订单号汇总数量，并将结果转换为表格就绪的JSON时使用。"
 ---
 
