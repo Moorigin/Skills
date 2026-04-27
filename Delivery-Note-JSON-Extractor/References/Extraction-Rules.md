@@ -5,7 +5,17 @@ Use these rules when extracting from raw PDF text.
 Return exactly this JSON object and no surrounding prose:
 
 ```
-{  "delivery_date": "string",  "items": [    {      "order_number": "string",      "platform_skc": "string",      "attribute_set": "string",      "quantity": "number"    }  ] } 
+{
+  "delivery_date": "string",
+  "items": [
+    {
+      "order_number": "string",
+      "platform_skc": "string",
+      "attribute_set": "string",
+      "quantity": "number"
+    }
+  ]
+} 
 ```
 
 Field rules:
