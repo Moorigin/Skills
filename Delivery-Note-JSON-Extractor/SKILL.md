@@ -31,7 +31,7 @@ description: "从商品发货单PDF中提取关键商品信息，并输出严格
 }
 ```
 
-4. If the user needs spreadsheet input, run `Scripts/Format_Delivery_Records.py` on the extracted JSON:
+4. Run `Scripts/Format_Delivery_Records.py` on the extracted JSON to output a strict JSON format for spreadsheet import:
 
 ```bash
 python3 /Users/moorigin/.codex/skills/Delivery-Note-JSON-Extractor/Scripts/Format_Delivery_Records.py extracted.json --pretty
