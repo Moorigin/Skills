@@ -70,7 +70,7 @@ It also prints:
 - Ignore unrelated PDF text such as `商家名称`.
 - Normalize delivery dates to `YYYY-MM-DD`.
 - Keep one record per unique order number after quantities are summed.
-- Extract `platform_skc` only from digits between `YY` and `NQL`, `L`, or `CSP`.
+- Extract `platform_skc` only from digits between `YY` and `NQL`, `L`, `CSX`, or `CSP`.
 - Clean `attribute_set` down to the color string, removing codes, punctuation, spaces, and size suffixes.
 - Use `null` or `""` for missing values.
 
