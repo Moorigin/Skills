@@ -1,0 +1,4 @@
+interface:
+  display_name: "配货单款色码汇总"
+  short_description: "按店铺分别统计配货单款色码、店内款号总数并生成 A4 汇总 PDF"
+  default_prompt: "使用 $packing-list-summary-pdf 从这些配货单 PDF 提取客户名称、款号、颜色、尺码和数量，按不同店铺分别统计店内款号总数和店铺合计，并生成 A4 汇总 PDF。"
